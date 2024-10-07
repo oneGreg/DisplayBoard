@@ -1,0 +1,12 @@
+profiles:
+  esp32:
+    fqbn: esp32:esp32:esp32s3:PartitionScheme=huge_app,PSRAM=opi    
+    platforms:
+      - platform: esp32:esp32 (2.0.15)
+    libraries:
+      - LovyanGFX (1.1.16)
+      - NonBlockingDallas (1.1.0)
+      - DallasTemperature (3.9.0)
+      - OneWire (2.3.8) 
+      
+default_profile: esp32
